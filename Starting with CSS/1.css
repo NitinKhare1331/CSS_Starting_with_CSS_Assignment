@@ -1,0 +1,8 @@
+.external{
+    color: maroon;
+     background-color: black;      /*  External CSS */
+}
+.target h1{
+    color: yellow;
+    background-color: darkblue;
+}

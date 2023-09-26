@@ -1,0 +1,38 @@
+.p{
+    background-color: yellow;
+    padding: 10px;
+}
+.p1__heading--lorem100{
+    background-color: #008000;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5%;
+}
+.p2__heading--lorem150{
+    background-color: #1b619f;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5%;
+    margin: 10px;
+}
+.p3__heading--lorem400{
+    background-color: #e11973;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5%;
+    margin: 10px;
+    max-height: 200px;
+    overflow: auto;
+}
+.p1__heading{
+    text-align: center;
+    background-color:blue;
+}
+.p2__heading{
+    text-align: center;
+    background-color:rgb(232, 23, 100);
+}
+.p3__heading{
+    text-align: center;
+    background-color:rgb(199, 88, 14);
+}

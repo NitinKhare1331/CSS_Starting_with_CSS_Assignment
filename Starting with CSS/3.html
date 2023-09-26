@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Starting with CSS</title>
+    <style>
+        .form{
+            background-color: yellow;
+            
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="form">
+            <form action="" method="get">
+                <table>
+                    <div class="form__h1">
+                        <tr><h1><u>Railway Reservation Form</u></h1></tr>
+                    </div>
+                    <div class="form__name">
+                    <tr><td>Name-</td><td><input type="username" name="name" placeholder="Enter your name" required style="background-color:rgba(199, 35, 62,0.5);"></td></tr>
+                    </div>
+                    <div class="form__mobile">
+                        <tr><td>Mobile-</td><td><input type="number" name="Number" id="number"placeholder="Enter your mobile no." required style="background-color:rgb(199, 35, 62);"></td></tr>
+                    </div>
+                    <div class="form__address">
+                        <tr><td>Address-</td><td><textarea name="Address-" id="address" cols="20" rows="1" placeholder="Enter your address" required style="background-color:rgba(199, 35, 62,0.5);"></textarea></td></tr>
+                    </div>
+                    <div class="form__source">
+                        <tr>
+                            <td>From-</td><td><input type="text" name="from" id="from" placeholder="Journey From" style="background-color:rgb(199, 35, 62);" required></td>
+                        </tr>
+                    </div>
+                    <div class="form__destination">
+                        <tr>
+                            <td>To-</td><td><input type="text" name="to" id="to" placeholder="Journey To" required style="background-color:rgba(199, 35, 62,0.5);"></td>
+                        </tr>
+                    </div>
+                    <div class="form__doj">
+                        <tr>
+                            <td>DOJ</td><td><input type="date" name="date" id="date" required style="background-color:rgb(199, 35, 62);"></td>
+                        </tr>
+                    </div>
+                    <div class="form__gen">
+                        <tr>
+                            <td>Gender-</td>
+                            <td><label><input type="radio" name="gender" id="gender" value="Male">Male</label>
+                                <label><input type="radio" name="gender" id="gender" value="Female">Female</label>
+                                <label><input type="radio" name="gender" id="gender" value="Other">Other</label>
+                            </td>
+                        </tr>
+                    </div>
+                    <div class="form__class">
+                        <tr><td>Class-</td>
+                            <td><select name="Class" id="Class" style="background-color: rgba(199, 35, 62,0.5);">
+                                <option value="1 AC">1AC</option>
+                                <option value="2 AC">2AC</option>
+                                <option value="3 AC">3AC</option>
+                                <option value="SL">SL</option>
+                            </select></td>
+                        </tr>
+                    </div>
+                    <div class="form__id__password">
+                        <tr><td>User Id-</td><td><input type="text" name="userID" id="userID" placeholder="Enter User Id" required style="background-color:rgb(199, 35, 62);"></td></tr>
+            <tr><td>Password-</td><td><input type="password" name="password" id="password" placeholder="Enter Password" required style="background-color:rgba(199, 35, 62,0.5);"></td></tr>
+                    </div>
+                    <div class="form__submit">
+                        <tr>
+                            <th><input type="Submit" name="submit" id="submit" style="background-color: rgb(175, 241, 76);"></th>
+                        </tr>
+                    </div>
+                    <div class="form__reset">
+                        <tr>
+                            <th>
+                                <button id="reset" style="background-color: rgba(175, 241, 76,0.5);">Reset</button>
+                            </th>
+                        </tr>
+                    </div>
+                </table>
+            </form>
+        </div>
+    </center>
+    <!-- Opacity is added by adding a in rgb i.e RGBA(100,100,100,(0.1-1.0)).It ranges from 0.1 to 1.0 i.e less tranparency to more transparency. -->
+</body>
+</html>

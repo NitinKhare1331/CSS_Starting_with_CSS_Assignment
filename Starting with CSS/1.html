@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting with CSS</title>
+    <link rel="stylesheet" href="./1.css"> <!--  Internal CSS -->
+    <style>
+        .types{                                      
+            text-align: justify;                             
+        }
+        .types ul{
+            color:blue;
+            background-color: yellowgreen;          /* This is Internal CSS */
+        }
+        .internal{
+            color: brown;
+            background-color: pink;
+        }
+        .target{
+            color: blueviolet;
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <div class="types">
+        <h2>There are basically three ways of applying CSS</h2>
+        <ul style="list-style-type: square;">
+            <li>Inline CSS</li>
+            <li>External CSS</li>
+            <li>Internal CSS</li>
+        </ul>
+    </div>
+    <div class="inline">
+        <h3 style="color: orange;background-color: black;">Inline CSS is applied inside the current elements</h3>
+        <!-- This is how inline CSS works -->
+    </div>
+    <div class="internal">
+        <h3>Internal CSS is applied inside the head tag and is written inside style element.</h3>
+        <!-- This is how Internal CSS works -->
+    </div>
+    <div class="external">
+        <h3>External CSS is applied using link tag inside html's head and is written seperately.</h3>
+        <!-- This is how External CSS works -->
+    </div>
+    <div class="target">
+        <h1 style="color: black;background-color: blue;">Targetting the same element with Inline,Internal,External</h1>
+        <!-- Inline CSS will always be in front when we target same element with all three CSS -->
+    </div>
+</body>
+</html>
